@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+</head>
+<body bgcolor="grey">
+    <form>
+        <h1>Registration Form</h1>
+        <label>UserName:</label><br>
+        <input type="text" name="uname" required><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="pass" required><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male">
+        <label>Male</label><br>
+        <input type="radio" name="gender" value="female">
+        <label>Female</label><br>
+        <input type="radio" name="gender" value="other">
+        <label>Other</label><br><br>
+        <label>Email ID:</label><br>
+        <input type="email" name="email" required><br><br>
+        <label>Mobile no:</label><br>
+        <input type="number" name="phone" required><br><br>
+        <label>Qualification:</label><br>
+        <label><input type="checkbox" name="qualification" value="Bachelor's Degree"> Bachelor's Degree</label><br>
+        <label><input type="checkbox" name="qualification" value="Master's Degree"> Master's Degree</label><br>
+        <label><input type="checkbox" name="qualification" value="Ph.D."> Ph.D.</label><br>
+        <label><input type="checkbox" name="qualification" value="Certified Professional"> Certified Professional</label><br>
+        <label>Courses*:</label>
+        <select name="course" multiple>
+            <option>Select</option>
+            <option>Advjava</option>
+            <option>.Net</option>
+        </select><br><br>
+        <label>DOB:</label>
+        <input type="text" name="dob" required><br><br>
+        <label>Address Details:</label><br>
+        <input type="text" name="address" placeholder="City">
+        <input type="text" name="address" placeholder="Area"><br><br>
+        <input type="number" name="address" placeholder="Pincode">
+        <input type="text" name="address" placeholder="State"><br><br>
+        <input type="text" name="address" placeholder="Country"><br><br>
+        <label>Comments:</label><br><br>
+        <textarea rows="5" cols="50" name="cmmnts">Comments here....</textarea><br><br>
+         <button type="submit"> submit</button>
+    </form>
+</body>
+</html>
